@@ -46,8 +46,8 @@ public class LoginActivity extends OAuthLoginActionBarActivity<ChirpClient> {
 	@Override
 	public void onLoginSuccess()
 	{
-		Log.i("login", "you have logged in" );
-		Intent i = new Intent(this, LoginActivity.class);
+		Log.i("loginActivity", "you have logged in" );
+		Intent i = new Intent(this, TimelineActivity.class);
 		startActivity(i);
 	}
 
